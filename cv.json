@@ -134,7 +134,11 @@
                     "month": "03",
                     "year": "2024"
                 },
-                "end": "Present"
+                "end": {
+                    "day": "31",
+                    "month": "07",
+                    "year": "2024"
+                }
             },
             "description": [
                 "Improved test coverage by 30% for vehicle customization systems through comprehensive API tests.",
