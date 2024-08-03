@@ -1,0 +1,337 @@
+{
+    "personal_info": {
+        "first_name": "Emanuel",
+        "last_name": "Sanchez",
+        "email": "esanchezc.sqa@gmail.com",
+        "phone": "628-246-6420",
+        "linkedin": "https://www.linkedin.com/in/emsanchezc/",
+        "github": "https://www.github.com/esanchezc",
+        "address": {
+            "street": "William Cannon Dr.",
+            "street2": "Apt 6206",
+            "city": "Austin",
+            "state": "Texas",
+            "zip_code": "78745"
+        }
+    },
+    "summary": "Senior Software Automation Engineer with 14+ years of experience across e-commerce, healthcare, and AI industries. Expert in Python and Javascript for backend, frontend, and API testing. Contributed to companies like Tesla, IBM, and Invitae.",
+    "skills": {
+        "test_automation": [
+            "Pytest",
+            "Cypress",
+            "Selenium",
+            "Robot",
+            "Spock",
+            "RestAssured",
+            "Geb",
+            "Page Object Model",
+            "JMeter",
+            "Gherkin",
+            "TestNG"
+        ],
+        "testing": [
+            "Manual",
+            "Regression",
+            "Release",
+            "Functional",
+            "API",
+            "Frontend",
+            "Backend",
+            "Integration",
+            "Performance",
+            "Load",
+            "Test Planning",
+            "Test Case Design"
+        ],
+        "programming": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "C",
+            "C++",
+            "C#",
+            "Groovy",
+            "Ruby",
+            "Perl",
+            "Objective-C",
+            "SQL",
+            "Node.js",
+            "React",
+            "HTML5",
+            "CSS",
+            "XPath",
+            "Bash",
+            "PowerShell"
+        ],
+        "api_and_backend_development": [
+            "Python (requests, Behave)",
+            "Java Spring Boot",
+            "C (Visual Studio)",
+            "C# (ASP.NET)",
+            "Groovy",
+            "Postman",
+            "RabbitMQ",
+            "SAP Commerce (Hybris)"
+        ],
+        "continuous_integration_and_deployment": [
+            "GitHub Actions",
+            "Jenkins",
+            "Maven",
+            "Gradle",
+            "Make",
+            "NPM",
+            "Allure",
+            "Linux",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Google Cloud"
+        ],
+        "e_commerce": [
+            "SAP Commerce (Hybris)",
+            "Adobe Experience Manager",
+            "Salesforce Commerce Cloud (Demandware)"
+        ],
+        "databases_machine_learning_and_monitoring": [
+            "MySQL",
+            "PostgreSQL",
+            "Datomic",
+            "Grafana",
+            "Splunk",
+            "NewRelic",
+            "Pandas",
+            "TensorFlow"
+        ],
+        "virtualization": [
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Google Cloud",
+            "VirtualBox",
+            "Parallels",
+            "RedHat"
+        ],
+        "web_and_mobile_development": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Ajax",
+            "Bootstrap",
+            "C# (ASP.NET)",
+            "SQL Server",
+            "iOS (Objective-C, XCode)",
+            "Android"
+        ]
+    },
+    "work_experience": [
+        {
+            "job_title": "Senior Software Quality Engineer",
+            "company": "Tesla",
+            "location": "Austin, USA",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "03",
+                    "year": "2024"
+                },
+                "end": "Present"
+            },
+            "description": [
+                "Improved test coverage by 30% for vehicle customization systems through comprehensive API tests.",
+                "Boosted efficiency by automating cloud VM API tests using Python and Behave, and enhanced reliability of UI tests with Python and Selenium, ensuring seamless user management"
+            ]
+        },
+        {
+            "job_title": "Senior Quality Engineer",
+            "company": "TripleBlind",
+            "location": "McAllen, USA - Remote",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "09",
+                    "year": "2022"
+                },
+                "end": {
+                    "day": "31",
+                    "month": "01",
+                    "year": "2024"
+                }
+            },
+            "description": [
+                "Improved ML model accuracy by 15% through data testing and preprocessing techniques, ensuring 100% privacy compliance.",
+                "Reduced defect rates by 25% by implementing comprehensive test plans using Pytest-BDD scenarios and increasing test coverage by 40% with an end-to-end testing framework.",
+                "Accelerated deployment times by 15% and improved data retrieval speeds by 20% through cloud database optimizations and efficient issue resolution strategies."
+            ]
+        },
+        {
+            "job_title": "Software Developer Engineer in Test",
+            "company": "Invitae",
+            "location": "San Francisco, USA",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "01",
+                    "year": "2020"
+                },
+                "end": {
+                    "day": "31",
+                    "month": "08",
+                    "year": "2022"
+                }
+            },
+            "description": [
+                "Reduced release cycles from 2 weeks to continuous delivery by orchestrating Cypress-based E2E test suite development for a Laboratory Information Management System.",
+                "Improved code quality by 20% and reduced mean time to resolution by 40% through active participation in pull request reviews and on-call rotation for the production environment.",
+                "Enhanced test stability by 50% and increased transparency by 35% by migrating automated tests to Cypress and optimization of regression suite execution."
+            ]
+        },
+        {
+            "job_title": "Quality Assurance Engineer Consultant",
+            "company": "Tacit Knowledge",
+            "location": "Guadalajara, Mexico",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "03",
+                    "year": "2014"
+                },
+                "end": {
+                    "day": "31",
+                    "month": "01",
+                    "year": "2020"
+                }
+            },
+            "description": [
+                "Ensured 99.8% uptime during peak periods for e-commerce sites by conducting comprehensive end-to-end testing and integrations with various third-party services",
+                "Reduced critical bugs by 25% using advanced testing techniques and increased test coverage by 40% through API test automation with Java, TestNG, Groovy, and RestAssured.",
+                "Improved site performance by 35% through load testing with JMeter and enhanced system scalability by 20% by developing backend features using Java Spring Boot"
+            ]
+        },
+        {
+            "job_title": "Test Automation & Test Specialist",
+            "company": "IBM",
+            "location": "Guadalajara, Mexico",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "02",
+                    "year": "2013"
+                },
+                "end": {
+                    "day": "28",
+                    "month": "02",
+                    "year": "2014"
+                }
+            },
+            "description": [
+                "Increased system stability by 30% as measured by reduced unexpected failures by developing stress test scripts to determine maximum product limits using Java and TestNG",
+                "Improved sprint completion rate by 25% as measured by completed story points by implementing Agile methodologies including daily scrums and bi-weekly retrospectives"
+            ]
+        },
+        {
+            "job_title": "Validation Engineer",
+            "company": "Intel",
+            "location": "Guadalajara, Mexico",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "09",
+                    "year": "2012"
+                },
+                "end": {
+                    "day": "28",
+                    "month": "02",
+                    "year": "2013"
+                }
+            },
+            "description": [
+                "Reduced defect escape rate by 20% as measured by customer-reported issues by executing and managing automated API tests for flash memory products using C and Visual Studio"
+            ]
+        },
+        {
+            "job_title": "Quality Engineer",
+            "company": "Hildebrando",
+            "location": "Guadalajara, Mexico",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "02",
+                    "year": "2011"
+                },
+                "end": {
+                    "day": "30",
+                    "month": "09",
+                    "year": "2012"
+                }
+            },
+            "description": [
+                "Reduced test cycle time by 30% as measured by days from planning to reporting by streamlining processes for remote client management and full-cycle software testing and creating stress scripts for Linux storage clusters"
+            ]
+        },
+        {
+            "job_title": "Web Application Developer",
+            "company": "Jabil",
+            "location": "Zapopan, Mexico",
+            "dates": {
+                "start": {
+                    "day": "01",
+                    "month": "07",
+                    "year": "2010"
+                },
+                "end": {
+                    "day": "31",
+                    "month": "07",
+                    "year": "2011"
+                }
+            },
+            "description": [
+                "Improved data retrieval speed by 25% as measured by query response time by optimizing server-side code in C# and database operations using SQL Server while developing web applications using HTML, CSS, JavaScript, and Ajax"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Masters",
+            "field": "Information Technology",
+            "university": "TECMilenio University",
+            "location": "Zapopan, Jalisco, Mexico",
+            "start_date": {
+                "day": "01",
+                "month": "01",
+                "year": "2019"
+            },
+            "end_date": {
+                "day": "30",
+                "month": "09",
+                "year": "2020"
+            }
+        },
+        {
+            "degree": "Bachelors",
+            "field": "Computer Engineering",
+            "university": "University of Guadalajara",
+            "location": "Guadalajara, Jalisco, Mexico",
+            "start_date": {
+                "day": "01",
+                "month": "08",
+                "year": "2006"
+            },
+            "end_date": {
+                "day": "31",
+                "month": "08",
+                "year": "2011"
+            }
+        }
+    ],
+    "certifications": [
+        "ISTQB Foundational Level",
+        "SAP Certified Application Associate - SAP Commerce Cloud Business User"
+    ],
+    "other_skills": [
+        "iOS Development: Contributed to gaming Jeopardy-style iOS application to educate about nutrition (Mi Nutriologo Quiz).",
+        "Data Annotation: Freelance work to train AI models by asking and correcting coding prompts.",
+        "Testing Instructor: Test Automation, CI, and build tools instructor for QA Minds Bootcamp.",
+        "Languages: Spanish (native), English (fluent)"
+    ],
+    "languages": ["English", "Spanish"]
+}
