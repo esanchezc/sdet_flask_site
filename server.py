@@ -13,9 +13,9 @@ def load_cv():
 def before_request():
     g.cv = load_cv()
 
-@app.route("/emanuel")
+@app.route("/")
 def main_page():
-    return render_template('emanuel.html', cv=g.cv)
+    return render_template('home.html', cv=g.cv)
 
 @app.route("/experience/<int:company_index>")
 def get_experience(company_index):

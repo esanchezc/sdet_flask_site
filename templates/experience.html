@@ -2,14 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Emanuel Sanchez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/static/assets/css/main.css">
 </head>
 
-<body>
-    <h1>{{experience['company']}}</h1>
-    <h2>{{experience['job_title']}}</h2>
+<body class="" data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="">
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#top">Top</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="container">
+        <h1>{{experience['company']}}</h1>
+        <h2>{{experience['job_title']}}</h2>
+        <div>
+            {% for desc in experience['description']%}
+            <p>{{desc}}</p>
+            {% endfor %}
+        </div>
+    </div>
 </body>
 
 </html>
