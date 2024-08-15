@@ -7,6 +7,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="static/assets/css/main.css">
+	<script src="/static/assets/js/jquery.min.js"></script>
 </head>
 
 <body class="" data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="">
@@ -114,16 +115,12 @@
 	<article id="contact" class="wrapper style4">
 		<div class="container medium">
 			<header>
-				{% if msg_sent: %}
-				<h2>Message Sent!</h2>
-				{% else: %}
-				<h2>Contact Me!</h2>
-				<p>Send me an email and I'll get back to you as soon as I can</p>
-				{% endif %}
+				<h2 id="contact-header">Contact Me!</h2>
+				<p id="contact-subheader">Send me an email and I'll get back to you as soon as I can</p>
 			</header>
 			<div class="row">
 				<div class="col-12">
-					<form method="post" action="/contact">
+					<form id="contact-form">
 						<div class="row">
 							<div class="col-6 col-12-small">
 								<input type="text" name="name" id="name" placeholder="Name">
@@ -182,6 +179,43 @@
 			</footer>
 		</div>
 	</article>
+
+	<script>
+        $(document).ready(function() {
+            $('#contact-form').on('submit', function(e) {
+                e.preventDefault();  // Prevent the default form submission
+                console.log("Form submitted"); // Debug log
+                $.ajax({
+                    url: '/',  // Submit to the root URL
+                    type: 'post',
+                    data: $('#contact-form').serialize(),
+                    success: function(response) {
+                        console.log("Response received:", response); // Debug log
+                        if (response.status === 'success') {
+                            $('#contact-header').text('Message Sent!');
+                            $('#contact-subheader').text(response.message);
+                            $('#contact-form')[0].reset();
+                            console.log("Message updated"); // Debug log
+                        }
+                        // Scroll to the contact section
+                        var contactSection = $('#contact');
+                        if (contactSection.length) {
+                            $('html, body').animate({
+                                scrollTop: contactSection.offset().top
+                            }, 1000);
+                            console.log("Scrolling to contact section"); // Debug log
+                        } else {
+                            console.log("Contact section not found"); // Debug log
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.log("Error:", status, error); // Debug log
+                        alert('An error occurred. Please try again.');
+                    }
+                });
+            });
+        });
+    </script>
 
 	<!-- Scripts -->
 	<script src="static/assets/js/jquery.min.js"></script>
