@@ -67,7 +67,8 @@
 					<section class="box style1">
 						<span class="icon solid featured fa-code"></span>
 						<h3>Python Developer</h3>
-						<p>I also write code! Check out my Python projects and how I use Pytest for unit and api tests</p>
+						<p>I also write code! Check out my Python projects and how I use Pytest for unit and api tests
+						</p>
 					</section>
 				</div>
 			</div>
@@ -113,12 +114,16 @@
 	<article id="contact" class="wrapper style4">
 		<div class="container medium">
 			<header>
-				<h2>Have me make stuff for you.</h2>
-				<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+				{% if msg_sent: %}
+				<h2>Message Sent!</h2>
+				{% else: %}
+				<h2>Contact Me!</h2>
+				<p>Send me an email and I'll get back to you as soon as I can</p>
+				{% endif %}
 			</header>
 			<div class="row">
 				<div class="col-12">
-					<form method="post" action="#">
+					<form method="post" action="/contact">
 						<div class="row">
 							<div class="col-6 col-12-small">
 								<input type="text" name="name" id="name" placeholder="Name">
@@ -145,7 +150,7 @@
 					<hr>
 					<h3>Find me on ...</h3>
 					<ul class="social">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>						
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<!--
